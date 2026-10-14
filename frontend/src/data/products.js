@@ -1,0 +1,75 @@
+const products = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    price: 301,
+    originalPrice: null,
+    image: "/images/pizza.jpg",
+    category: "bestseller",
+    description: "Classic margherita pizza with fresh mozzarella, tomato sauce, and basil leaves on a thin crust.",
+    portions: [
+      { name: "Personal (4 Slices)", price: 0 },
+      { name: "Medium (8 Slices)", price: 3 },
+      { name: "Familiar (10 Slices)", price: 6 },
+      { name: "Jumbo (12 Slices)", price: 10 },
+    ],
+  },
+  {
+    id: 2,
+    name: "Classic Burger",
+    price: 500,
+    originalPrice: null,
+    image: "/images/burger.jpg",
+    category: "bestseller",
+    description: "Juicy beef patty with fresh lettuce, tomato, cheese, and our special sauce in a toasted bun.",
+    portions: [
+      { name: "Regular", price: 0 },
+      { name: "Double Patty", price: 4 },
+      { name: "Triple Patty", price: 7 },
+    ],
+  },
+  {
+    id: 3,
+    name: "Chicken Biryani",
+    price: 299,
+    originalPrice: 820,
+    image: "/images/biryani.jpg",
+    category: "bestseller",
+    description: "Aromatic basmati rice layered with tender chicken pieces, saffron, and traditional spices.",
+    portions: [
+      { name: "Half Plate", price: 0 },
+      { name: "Full Plate", price: 5 },
+      { name: "Family Pack", price: 12 },
+    ],
+  },
+  {
+    id: 4,
+    name: "Pepperoni Pizza",
+    price: 1400,
+    originalPrice: null,
+    image: "/images/pizza.jpg",
+    category: "bestseller",
+    description: "Loaded pepperoni pizza with extra cheese, oregano, and chili flakes on a hand-tossed base.",
+    portions: [
+      { name: "Personal (4 Slices)", price: 0 },
+      { name: "Medium (8 Slices)", price: 3 },
+      { name: "Familiar (10 Slices)", price: 6 },
+      { name: "Jumbo (12 Slices)", price: 10 },
+    ],
+  },
+  {
+    id: 5,
+    name: "Strawberry Shake",
+    price: 2000,
+    originalPrice: null,
+    image: "/images/shake.jpg",
+    category: "popular",
+    description: "Creamy strawberry milkshake topped with whipped cream and fresh strawberries.",
+    portions: [
+      { name: "Regular (300ml)", price: 0 },
+      { name: "Large (500ml)", price: 3 },
+    ],
+  },
+];
+
+export default products;
